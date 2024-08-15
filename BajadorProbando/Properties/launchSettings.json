@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "BajadorProbando (dev)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ENVIRONMENT": "Development",
+        "AFIP_DATES": "[{\"DayOfTheMonth\":1,\"AfipDates\":{\"StartDate\":22,\"EndDate\":1}},{\"DayOfTheMonth\":8,\"AfipDates\":{\"StartDate\":1,\"EndDate\":8}},{\"DayOfTheMonth\":15,\"AfipDates\":{\"StartDate\":8,\"EndDate\":15}},{\"DayOfTheMonth\":22,\"AfipDates\":{\"StartDate\":15,\"EndDate\":22}}]",
+        "IP_ADDRESS": "127.0.0.1",
+        "PEM_PATH": "c:\\pem"
+      }
+      }
+    },
+    "BajadorProbando (prod)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
